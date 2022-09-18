@@ -1,2 +1,7 @@
 server:
   port: 8300
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://serviceregistry:8761/eureka/
